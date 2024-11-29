@@ -24,8 +24,11 @@ o	Hispanic/Latin/Mexican being mostly killed(735972) and Chinese being least kil
 
 **Data Cleaning with Python Pandas:**
 •	Analyzed columns in both datasets to prepare for merging.
+
 •	Standardized column formatting by removing trailing spaces, replacing gaps with underscores, and converting all characters to lowercase.
+
 •	Removed unnecessary columns such as 'crm_cd_1', 'crm_cd_2', 'crm_cd_3', 'crm_cd_4', 'part_1-2', 'cross_street', 'area', 'mocodes', 'crm_cd', 'premis_cd', 'weapon_used_cd', and 'status'.
+
 •	Renamed columns like 'lat' to 'latitude', 'lon' to 'longitude', 'crm_cd' to 'crime_code', 'rpt_dist_no' to 'district_no', 'dr_no' to 'doc_no', and 'vict_descent' to 'vict_race'.
 •	Handled missing values by filling nulls, dropped duplicate rows, and corrected data types for date and time columns.
 •	Assigned meaningful names to letters in the victim race column for better clarity.
