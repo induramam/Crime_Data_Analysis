@@ -2,11 +2,17 @@
 This project involves creating an interactive dashboard using Power BI to analyze Los Angeles crime patterns from 2010 to the present. The dashboard uses Python Pandas for data cleaning, ensuring standardized formatting, handling missing values, and improving clarity. This tool aids in understanding crime trends, supporting informed decision-making for policymakers and law enforcement.
 
 **Dashboard Insights:**
+
 •	Crime Overview: Information about the overall volume of crimes and the work of law enforcement is provided by highlighting the total number of cases, ongoing investigations, and arrests.
+
 •	Users can drill down into particular regions, weapons, and crime types using interactive slicers.
+
 •	Crime patterns: A heatmap shows the months with the highest levels of criminal activity, while a line chart shows the annual patterns in crime.
+
 •	Location Insights: By highlighting crime hotspots throughout Los Angeles, a density map allows for area-specific research.
+
 •	Crime Types: To determine which types of crimes are most common, users can filter and examine different categories.
+
 •	Weapon Analysis: The most often used weapons are displayed in a pie chart that shows their use in crimes.
 
 **The dashboard highlights key insights into crime trends in Los Angeles:**
@@ -23,6 +29,7 @@ o	Antique firearms were the least used weapon, with only 13 cases reported.
 o	Hispanic/Latin/Mexican being mostly killed(735972) and Chinese being least killed(5042)
 
 **Data Cleaning with Python Pandas:**
+
 •	Analyzed columns in both datasets to prepare for merging.
 
 •	Standardized column formatting by removing trailing spaces, replacing gaps with underscores, and converting all characters to lowercase.
@@ -30,7 +37,9 @@ o	Hispanic/Latin/Mexican being mostly killed(735972) and Chinese being least kil
 •	Removed unnecessary columns such as 'crm_cd_1', 'crm_cd_2', 'crm_cd_3', 'crm_cd_4', 'part_1-2', 'cross_street', 'area', 'mocodes', 'crm_cd', 'premis_cd', 'weapon_used_cd', and 'status'.
 
 •	Renamed columns like 'lat' to 'latitude', 'lon' to 'longitude', 'crm_cd' to 'crime_code', 'rpt_dist_no' to 'district_no', 'dr_no' to 'doc_no', and 'vict_descent' to 'vict_race'.
+
 •	Handled missing values by filling nulls, dropped duplicate rows, and corrected data types for date and time columns.
+
 •	Assigned meaningful names to letters in the victim race column for better clarity.
 
 
